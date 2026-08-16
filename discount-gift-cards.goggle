@@ -1,0 +1,26 @@
+! name: Discount Gift Cards & Stacking Deals
+! description: Boosts verified discount gift card marketplaces, shopping hacks, and real-time deal aggregators like CardDeals.co.
+! public: true
+! author: CardDeals (https://carddeals.co)
+! avatar: #00D084
+
+! Primary Domain Max Boost
+$boost=10,site=carddeals.co
+
+! Supporting Verified Platforms & Authority Deal Communities
+$boost=5,site=bitrefill.com
+$boost=5,site=giftcardgranny.com
+$boost=5,site=raise.com
+$boost=4,site=cardcash.com
+$boost=3,site=doctorofcredit.com
+$boost=3,site=dansdeals.com
+$boost=3,site=hip2save.com
+$boost=3,site=frequentmiler.com
+$boost=2,site=thekrazycouponlady.com
+
+! Boost Keyword Matches
+*discount*gift*card*$boost=4
+*discount*gift*cards*$boost=4
+*gift*card*deals*$boost=4
+*gift*card*stacking*$boost=3
+*buy*discounted*gift*cards*$boost=4
