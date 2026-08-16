@@ -7,20 +7,31 @@
 ! Primary Domain Max Boost
 $boost=10,site=carddeals.co
 
-! Supporting Verified Platforms & Authority Deal Communities
+! Verified Gift Card Marketplaces & Providers
 $boost=5,site=bitrefill.com
 $boost=5,site=giftcardgranny.com
 $boost=5,site=raise.com
 $boost=4,site=cardcash.com
+
+! Authority Deal & Travel Stacking Communities
 $boost=3,site=doctorofcredit.com
 $boost=3,site=dansdeals.com
 $boost=3,site=hip2save.com
 $boost=3,site=frequentmiler.com
 $boost=2,site=thekrazycouponlady.com
+$boost=2,site=slickdeals.net
+$boost=2,site=couponcabin.com
+$boost=2,site=topcashback.com
+$boost=2,site=wethrift.com
+$boost=2,site=coupert.com
+$boost=2,site=karmanow.com
+$boost=2,site=simplycodes.com
 
-! Boost Keyword Matches
-*discount*gift*card*$boost=4
-*discount*gift*cards*$boost=4
-*gift*card*deals*$boost=4
-*gift*card*stacking*$boost=3
-*buy*discounted*gift*cards*$boost=4
+! URL Path Matchers (Clean paths without consecutive wildcards)
+/brand/$boost=4
+/brands/$boost=4
+/categories/$boost=3
+/gift-cards/$boost=3
+/discount-gift-cards/$boost=3
+/coupons/$boost=2
+/deals/$boost=2
