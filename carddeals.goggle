@@ -33,7 +33,10 @@ $boost=2,site=simplycodes.com
 /blog/$boost=4
 /brand/$boost=4
 /brands/$boost=4
+/best-gift-cards/$boost=4
+/sell/$boost=4
 /categories/$boost=3
+/compare/$boost=3
 /gift-cards/$boost=3
 /discount-gift-cards/$boost=3
 /coupons/$boost=2
